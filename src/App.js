@@ -12,7 +12,7 @@ class App extends Component {
 
   showModal = () => {
     this.setState({modalIsOpen: true});
-  }
+  };
 
   closeModal = () => {
     this.setState({modalIsOpen: false});

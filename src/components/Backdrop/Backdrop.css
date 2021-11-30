@@ -8,10 +8,10 @@
     background-color: rgba(0,0,0,0.8);
 }
 
-.BackrdopOpen {
+.BackdropOpen {
     display: block;
 }
 
-.BackrdopClosed {
+.BackdropClosed {
     display: none;
 }
