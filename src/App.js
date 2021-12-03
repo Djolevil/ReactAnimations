@@ -42,7 +42,7 @@ class App extends Component {
           onExit={() => console.log('onExit')}
           onExiting={() => console.log('onExiting')}
           onExited={() => console.log('onExited')}>
-        {state => {
+        {state => (
           <div
           style={{
              backgroundColor: 'red', 
@@ -53,7 +53,7 @@ class App extends Component {
              opacity: state === 'exiting' ? 0 : 1
              }}
              />
-        }}
+        )}
         </Transition>
             <Modal show={this.state.modalIsOpen} closed={this.closeModal}/>
         {this.state.modalIsOpen ? <Backdrop show /> : null}
